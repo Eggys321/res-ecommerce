@@ -9,19 +9,16 @@
   height: 1rem;
   width: 100%;
 } */
-.hero-img{
-  height: 470px;
-}
 
-.dddd{
-  /* width: 35%; */
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    place-content: center;
-    place-items: center;
-    gap: 4rem;
-}
+/* .crd{
+  height: 100px;
+} */
+
+
+
+/* .cbd{
+  width: 115px;
+} */
 
 body {
   background-color: #f5f5f5;

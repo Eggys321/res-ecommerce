@@ -1,10 +1,14 @@
 import React from 'react';
 import Hero from '../pages/Hero';
 
-const Home = () => {
+const Home = ({ cartItem, setCartItems, handleAddToCart }) => {
   return (
     <div>
-      <Hero/>
+      <Hero
+        handleAddToCart={handleAddToCart}
+        cartItem={cartItem}
+        setCartItem={setCartItems}
+      />
     </div>
   )
 }

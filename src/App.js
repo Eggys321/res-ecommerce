@@ -6,7 +6,8 @@ import Navbar from './layout/Navbar';
 import Home from './componenet/Home';
 import Cart from './componenet/Cart';
 import Footer from './layout/Footer';
-import SingleProduct from './componenet/SingleProduct'
+import SingleProduct from './componenet/SingleProduct';
+import 'react-toastify/dist/ReactToastify.css';
 
 const cartItemsFromLocalStorage =
   JSON.parse(localStorage.getItem('cartItem')) || []
